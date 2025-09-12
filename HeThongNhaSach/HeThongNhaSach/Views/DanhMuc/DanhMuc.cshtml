@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Danh mục - Nhà Sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<HeThongNhaSach.Models.DanhMuc>
+@section Styles {
+    <link rel="stylesheet" href="~/css/danhmuc.css" />
+}
+
+<div class="container my-5">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold text-primary">Danh mục sản phẩm</h1>
+        <p class="text-muted">Khám phá thế giới tuyệt vời của tri thức và giải trí</p>
+    </div>
+
+    <!-- Thanh filter -->
+    <div class="d-flex justify-content-end mb-4">
+        <select class="form-select w-auto">
+            <option>Phổ biến nhất</option>
+            <option>Mới nhất</option>
+            <option>Nhiều sản phẩm nhất</option>
+        </select>
+    </div>
+
+    <!-- Grid danh mục -->
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="category-card position-relative shadow-sm">
+                <img src="~/images/danhmuc/sachtrongnuoc.png" class="img-fluid rounded" alt="Sách trong nước">              
+                <div class="info p-3">
+                    <p>Tác phẩm nổi bật từ các tác giả Việt Nam</p>
+                    <span class="count text-muted">2,345 sản phẩm</span>
+                    <a asp-controller="DanhMuc" asp-action="SachTrongNuoc" class="d-block mt-2 text-primary fw-bold">
+                        Xem thêm →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="category-card position-relative shadow-sm">
+                <img src="~/images/danhmuc/sachnuocngoai.png" class="img-fluid rounded" alt="Sách ngoài nước">                
+                <div class="info p-3">
+                    <p>Foreign books</p>
+                    <span class="count text-muted">1,892 sản phẩm</span>
+                    <a asp-controller="DanhMuc" asp-action="SachNgoaiNuoc" class="d-block mt-2 text-primary fw-bold">
+                        Xem thêm →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="category-card position-relative shadow-sm">
+                <img src="~/images/danhmuc/dungcu.png" class="img-fluid rounded" alt="Dụng cụ học sinh">
+                <div class="info p-3">
+                    <p>Bút, vở, balo và nhiều sản phẩm học tập</p>
+                    <span class="count text-muted">1,456 sản phẩm</span>
+                    <a asp-controller="DanhMuc" asp-action="DungCuHocSinh" class="d-block mt-2 text-primary fw-bold">
+                        Xem thêm →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="category-card position-relative shadow-sm">
+                <img src="~/images/danhmuc/dochoi.png" class="img-fluid rounded" alt="Đồ chơi trẻ em">                
+                <div class="info p-3">
+                    <p>Đồ chơi phát triển trí tuệ và giải trí cho bé</p>
+                    <span class="count text-muted">1,102 sản phẩm</span>
+                    <a asp-controller="DanhMuc" asp-action="DoChoiTreEm" class="d-block mt-2 text-primary fw-bold">
+                        Xem thêm →
+                    </a>
+                </div>
+            </div>
+        </div>

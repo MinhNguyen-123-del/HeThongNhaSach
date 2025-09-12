@@ -1,0 +1,31 @@
+﻿.category-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    /* Overlay mờ trên ảnh */
+    .category-card .overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        text-align: center;
+    }
+
+    .category-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .category-card .overlay h3 {
+        color: white;
+        margin-top: 10px;
+    }
