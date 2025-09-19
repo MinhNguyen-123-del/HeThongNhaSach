@@ -261,3 +261,4 @@ D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\refint
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.pdb
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.genruntimeconfig.cache
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\ref\HeThongNhaSach.dll
+D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.sourcelink.json

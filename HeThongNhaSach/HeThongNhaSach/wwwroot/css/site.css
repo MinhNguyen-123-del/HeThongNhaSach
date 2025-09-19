@@ -54,8 +54,28 @@
     color: #fff; /* icon màu trắng */
     border: none;
     border-radius: 0 30px 30px 0 !important;
-    padding: 0 15px; /* căn giữa icon */
+    /* Thu nhỏ kích thước */
+    width: 45px; /* cố định ngang nhỏ */
+    height: 32px; /* thấp hơn input */
+    font-size: 14px; /* icon nhỏ gọn */
+    padding: 0; /* bỏ padding dư */
+    margin-top: 4px; /* căn giữa so với input */
+    margin-bottom: 4px;
 }
+/* Hiện menu khi hover vào item có dropdown */
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Chống bị lệch khoảng cách */
+.dropdown-menu {
+    margin-top: 0;
+}
+
+
+
 
     /* Hover button: đỏ đậm hơn */
     .input-group .btn:hover {

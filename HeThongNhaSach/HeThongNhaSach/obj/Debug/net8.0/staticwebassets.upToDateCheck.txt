@@ -25,6 +25,7 @@ wwwroot\images\Home\Banner3.png
 wwwroot\images\Home\butgen.png
 wwwroot\images\Home\dacnhantam.png
 wwwroot\images\Home\datncgamhoa.png
+wwwroot\images\Home\demen.png
 wwwroot\images\Home\gauteddy.png
 wwwroot\images\Home\giaoducnhifong.png
 wwwroot\images\Home\Hp.png
