@@ -126,3 +126,25 @@ form.mx-auto {
 .flash-sale-card {
     border: none;
 }
+/* Product Card Hover Effect */
+.card.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* thêm con trỏ tay cho dễ thấy */
+}
+
+    .card.product-card:hover {
+        transform: translateY(-8px) scale(1.05) !important; /* nhún + phóng to */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25) !important; /* đổ bóng */
+    }
+
+    /* Ảnh bên trong */
+    .card.product-card img {
+        transition: transform 0.5s ease;
+    }
+
+    .card.product-card:hover img {
+        transform: scale(1.1); /* zoom ảnh khi hover */
+    }
+.card.product-card {
+    border: 2px solid red !important;
+}

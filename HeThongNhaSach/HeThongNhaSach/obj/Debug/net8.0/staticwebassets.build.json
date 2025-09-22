@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5eAL1lelcOx5gwb6TzPniLmob4eaHLOkbzuNCmCtRbE=",
+  "Hash": "FRp9QaUwEeY9CVOpm00RFcoDjD0AJ7iyGJN7OsqMP58=",
   "Source": "HeThongNhaSach",
   "BasePath": "_content/HeThongNhaSach",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "my21i2qno4",
-      "Integrity": "wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY=",
+      "Fingerprint": "6vhggk1euf",
+      "Integrity": "ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -808,8 +808,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ldo0jw7l1g",
-      "Integrity": "aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8=",
+      "Fingerprint": "n116dxa0mv",
+      "Integrity": "yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home\\nhagiakim.png"
@@ -2327,6 +2327,51 @@
       ]
     },
     {
+      "Route": "css/site.6vhggk1euf.css",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Sep 2025 02:45:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6vhggk1euf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2337,7 +2382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2772"
+          "Value": "3439"
         },
         {
           "Name": "Content-Type",
@@ -2345,11 +2390,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY=\""
+          "Value": "\"ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 03:27:19 GMT"
+          "Value": "Mon, 22 Sep 2025 02:45:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2359,52 +2404,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.my21i2qno4.css",
-      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2772"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 19 Sep 2025 03:27:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "my21i2qno4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY="
+          "Value": "sha256-ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc="
         }
       ]
     },
@@ -5279,7 +5279,7 @@
       ]
     },
     {
-      "Route": "images/Home/nhagiakim.ldo0jw7l1g.png",
+      "Route": "images/Home/nhagiakim.n116dxa0mv.png",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\nhagiakim.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5289,7 +5289,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "439784"
+          "Value": "118186"
         },
         {
           "Name": "Content-Type",
@@ -5297,11 +5297,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8=\""
+          "Value": "\"yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 12:01:10 GMT"
+          "Value": "Mon, 22 Sep 2025 02:52:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5311,7 +5311,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ldo0jw7l1g"
+          "Value": "n116dxa0mv"
         },
         {
           "Name": "label",
@@ -5319,7 +5319,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8="
+          "Value": "sha256-yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4="
         }
       ]
     },
@@ -5334,7 +5334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "439784"
+          "Value": "118186"
         },
         {
           "Name": "Content-Type",
@@ -5342,11 +5342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8=\""
+          "Value": "\"yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Aug 2025 12:01:10 GMT"
+          "Value": "Mon, 22 Sep 2025 02:52:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5356,7 +5356,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8="
+          "Value": "sha256-yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4="
         }
       ]
     },

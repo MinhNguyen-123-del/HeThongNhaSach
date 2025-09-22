@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>my21i2qno4</Fingerprint>
-      <Integrity>wkDFZHAA2CP8ag+tSrl5GEWgfoTt79ou0PEU7oLmScY=</Integrity>
+      <Fingerprint>6vhggk1euf</Fingerprint>
+      <Integrity>ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -660,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ldo0jw7l1g</Fingerprint>
-      <Integrity>aZ6hxbCPsWU5tlZ0SiUaQsub7opv8+C0jq05hS92NI8=</Integrity>
+      <Fingerprint>n116dxa0mv</Fingerprint>
+      <Integrity>yzvpZpRO6+EGTTNFRfpUx6dgiyc7SnAfZdu7HQJ2Ip4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Home\nhagiakim.png'))</OriginalItemSpec>
