@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FRp9QaUwEeY9CVOpm00RFcoDjD0AJ7iyGJN7OsqMP58=",
+  "Hash": "31usp5Dw5zrKLvWzISaybmEpZ/EYvyEc6bJ+bcahq7E=",
   "Source": "HeThongNhaSach",
   "BasePath": "_content/HeThongNhaSach",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v4f1896hby",
-      "Integrity": "IZEyBVXWgN+ApU8gmsiS4vDYavS0ymmJoZ0TSIM5aJY=",
+      "Fingerprint": "f7tcpyqfy5",
+      "Integrity": "JQA58T6j1MH17EB6hab4FZ2LCGSMGXA559Xk95QwAmQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\danhmuc.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6vhggk1euf",
-      "Integrity": "ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=",
+      "Fingerprint": "jbi0zlfble",
+      "Integrity": "v4Ps1EbZA5cIkaH54R6EefP3hmoogB4d9kuQVH6tpzI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -479,6 +479,27 @@
       "OriginalItemSpec": "wwwroot\\images\\DanhMuc\\truyenkieu.png"
     },
     {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\1984.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/1984#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kbmmrt9t1w",
+      "Integrity": "gHkuQllkW9oBqGiKq/JwcIaU+HGo+kKplZPF1fNnsSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\1984.jpg"
+    },
+    {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\An.png",
       "SourceId": "HeThongNhaSach",
       "SourceType": "Discovered",
@@ -582,6 +603,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home\\butgen.png"
+    },
+    {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\compa.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/compa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czsphxtddi",
+      "Integrity": "+EOo9c8hnzNVbFGvd+PH1VlNegWpHLVjzOQKFR8Lz8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\compa.jpg"
     },
     {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\dacnhantam.png",
@@ -773,6 +815,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Home\\legocity.png"
     },
     {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\mausap.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/mausap#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9jgleqf3kh",
+      "Integrity": "C5Ng9gVbspK57GFY1fciDS8/t7eFPfeo8f9k2h0RM0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\mausap.jpg"
+    },
+    {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\Muado.png",
       "SourceId": "HeThongNhaSach",
       "SourceType": "Discovered",
@@ -834,6 +897,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home\\nsthenaodebandchang.png"
+    },
+    {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\rubik.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/rubik#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uov97fbjmj",
+      "Integrity": "rntQPFXlt+wDq6ZkMrhYox/mYiAncnA7ouy9UuUPVCU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\rubik.jpg"
     },
     {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\sachkynang.png",
@@ -920,6 +1004,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Home\\thinhanvn.png"
     },
     {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\tokillamockingbird.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/tokillamockingbird#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5csdad214p",
+      "Integrity": "tc64Y0nnKHlzowrel4Q0UQUb1YwzQEeJx2E0HQwowOY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\tokillamockingbird.jpg"
+    },
+    {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\truyenkieu.png",
       "SourceId": "HeThongNhaSach",
       "SourceType": "Discovered",
@@ -1002,6 +1107,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home\\vo200trang.png"
+    },
+    {
+      "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\xetai.jpg",
+      "SourceId": "HeThongNhaSach",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\",
+      "BasePath": "_content/HeThongNhaSach",
+      "RelativePath": "images/Home/xetai#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "odf69im0mr",
+      "Integrity": "pNuXvFd/l2yuwUJwS1Fy0qflxMYnUsNJmWuEbJ3nv0M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home\\xetai.jpg"
     },
     {
       "Identity": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\js\\search.js",
@@ -2255,7 +2381,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "699"
+          "Value": "6684"
         },
         {
           "Name": "Content-Type",
@@ -2263,11 +2389,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IZEyBVXWgN+ApU8gmsiS4vDYavS0ymmJoZ0TSIM5aJY=\""
+          "Value": "\"JQA58T6j1MH17EB6hab4FZ2LCGSMGXA559Xk95QwAmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Sep 2025 14:57:17 GMT"
+          "Value": "Tue, 23 Sep 2025 14:56:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2277,12 +2403,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IZEyBVXWgN+ApU8gmsiS4vDYavS0ymmJoZ0TSIM5aJY="
+          "Value": "sha256-JQA58T6j1MH17EB6hab4FZ2LCGSMGXA559Xk95QwAmQ="
         }
       ]
     },
     {
-      "Route": "css/danhmuc.v4f1896hby.css",
+      "Route": "css/danhmuc.f7tcpyqfy5.css",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\danhmuc.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2292,7 +2418,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "699"
+          "Value": "6684"
         },
         {
           "Name": "Content-Type",
@@ -2300,11 +2426,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IZEyBVXWgN+ApU8gmsiS4vDYavS0ymmJoZ0TSIM5aJY=\""
+          "Value": "\"JQA58T6j1MH17EB6hab4FZ2LCGSMGXA559Xk95QwAmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 09 Sep 2025 14:57:17 GMT"
+          "Value": "Tue, 23 Sep 2025 14:56:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2314,7 +2440,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v4f1896hby"
+          "Value": "f7tcpyqfy5"
         },
         {
           "Name": "label",
@@ -2322,52 +2448,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IZEyBVXWgN+ApU8gmsiS4vDYavS0ymmJoZ0TSIM5aJY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.6vhggk1euf.css",
-      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3439"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 22 Sep 2025 02:45:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6vhggk1euf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc="
+          "Value": "sha256-JQA58T6j1MH17EB6hab4FZ2LCGSMGXA559Xk95QwAmQ="
         }
       ]
     },
@@ -2382,7 +2463,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3439"
+          "Value": "3998"
         },
         {
           "Name": "Content-Type",
@@ -2390,11 +2471,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc=\""
+          "Value": "\"v4Ps1EbZA5cIkaH54R6EefP3hmoogB4d9kuQVH6tpzI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 22 Sep 2025 02:45:19 GMT"
+          "Value": "Tue, 23 Sep 2025 05:49:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2404,7 +2485,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ci6bk9jfH40fMvVXjK/iBBWIDnVKMDhf0Dpx75QyHkc="
+          "Value": "sha256-v4Ps1EbZA5cIkaH54R6EefP3hmoogB4d9kuQVH6tpzI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.jbi0zlfble.css",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4Ps1EbZA5cIkaH54R6EefP3hmoogB4d9kuQVH6tpzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 05:49:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jbi0zlfble"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4Ps1EbZA5cIkaH54R6EefP3hmoogB4d9kuQVH6tpzI="
         }
       ]
     },
@@ -2595,7 +2721,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:09:33 GMT"
+          "Value": "Mon, 22 Sep 2025 12:05:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2640,7 +2766,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:09:33 GMT"
+          "Value": "Mon, 22 Sep 2025 12:05:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2685,7 +2811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:09:33 GMT"
+          "Value": "Mon, 22 Sep 2025 12:05:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2722,7 +2848,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:09:33 GMT"
+          "Value": "Mon, 22 Sep 2025 12:05:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4049,6 +4175,88 @@
       ]
     },
     {
+      "Route": "images/Home/1984.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\1984.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHkuQllkW9oBqGiKq/JwcIaU+HGo+kKplZPF1fNnsSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gHkuQllkW9oBqGiKq/JwcIaU+HGo+kKplZPF1fNnsSI="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/1984.kbmmrt9t1w.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\1984.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gHkuQllkW9oBqGiKq/JwcIaU+HGo+kKplZPF1fNnsSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kbmmrt9t1w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/1984.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gHkuQllkW9oBqGiKq/JwcIaU+HGo+kKplZPF1fNnsSI="
+        }
+      ]
+    },
+    {
       "Route": "images/Home/An.157d94vyyw.png",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\An.png",
       "Selectors": [],
@@ -4455,6 +4663,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-oQVjz67FLNREKExZuIJ4U829JMIje0YnagI0zTbzIwE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/compa.czsphxtddi.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\compa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+EOo9c8hnzNVbFGvd+PH1VlNegWpHLVjzOQKFR8Lz8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "czsphxtddi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/compa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+EOo9c8hnzNVbFGvd+PH1VlNegWpHLVjzOQKFR8Lz8s="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/compa.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\compa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+EOo9c8hnzNVbFGvd+PH1VlNegWpHLVjzOQKFR8Lz8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+EOo9c8hnzNVbFGvd+PH1VlNegWpHLVjzOQKFR8Lz8s="
         }
       ]
     },
@@ -5197,6 +5487,88 @@
       ]
     },
     {
+      "Route": "images/Home/mausap.9jgleqf3kh.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\mausap.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C5Ng9gVbspK57GFY1fciDS8/t7eFPfeo8f9k2h0RM0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9jgleqf3kh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/mausap.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C5Ng9gVbspK57GFY1fciDS8/t7eFPfeo8f9k2h0RM0Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/mausap.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\mausap.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C5Ng9gVbspK57GFY1fciDS8/t7eFPfeo8f9k2h0RM0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:08:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C5Ng9gVbspK57GFY1fciDS8/t7eFPfeo8f9k2h0RM0Y="
+        }
+      ]
+    },
+    {
       "Route": "images/Home/Muado.b7c721g6b1.png",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\Muado.png",
       "Selectors": [],
@@ -5439,6 +5811,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-DrMqAONlpUP6UNqEXWZ1IQABdIgiwZT/ZcBZzPa8Eeo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/rubik.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\rubik.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rntQPFXlt+wDq6ZkMrhYox/mYiAncnA7ouy9UuUPVCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rntQPFXlt+wDq6ZkMrhYox/mYiAncnA7ouy9UuUPVCU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/rubik.uov97fbjmj.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\rubik.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rntQPFXlt+wDq6ZkMrhYox/mYiAncnA7ouy9UuUPVCU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uov97fbjmj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/rubik.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rntQPFXlt+wDq6ZkMrhYox/mYiAncnA7ouy9UuUPVCU="
         }
       ]
     },
@@ -5771,6 +6225,88 @@
       ]
     },
     {
+      "Route": "images/Home/tokillamockingbird.5csdad214p.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\tokillamockingbird.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tc64Y0nnKHlzowrel4Q0UQUb1YwzQEeJx2E0HQwowOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:07:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5csdad214p"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/tokillamockingbird.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tc64Y0nnKHlzowrel4Q0UQUb1YwzQEeJx2E0HQwowOY="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/tokillamockingbird.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\tokillamockingbird.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tc64Y0nnKHlzowrel4Q0UQUb1YwzQEeJx2E0HQwowOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:07:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tc64Y0nnKHlzowrel4Q0UQUb1YwzQEeJx2E0HQwowOY="
+        }
+      ]
+    },
+    {
       "Route": "images/Home/truyenkieu.cls1hyrp7u.png",
       "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\truyenkieu.png",
       "Selectors": [],
@@ -6095,6 +6631,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-iH6q2vLa5Zx5JvOXTZmWHPqYZvlf3w0X4q9kZWE0vA0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/xetai.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\xetai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pNuXvFd/l2yuwUJwS1Fy0qflxMYnUsNJmWuEbJ3nv0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pNuXvFd/l2yuwUJwS1Fy0qflxMYnUsNJmWuEbJ3nv0M="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home/xetai.odf69im0mr.jpg",
+      "AssetFile": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\xetai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pNuXvFd/l2yuwUJwS1Fy0qflxMYnUsNJmWuEbJ3nv0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 23 Sep 2025 16:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "odf69im0mr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home/xetai.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pNuXvFd/l2yuwUJwS1Fy0qflxMYnUsNJmWuEbJ3nv0M="
         }
       ]
     },

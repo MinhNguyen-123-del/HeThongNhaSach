@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\images\\DanhMuc\\truyenkieu.png"
     },
     {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\1984.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\1984.jpg"
+    },
+    {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\An.png",
       "PackagePath": "staticwebassets\\images\\Home\\An.png"
     },
@@ -115,6 +119,10 @@
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\butgen.png",
       "PackagePath": "staticwebassets\\images\\Home\\butgen.png"
+    },
+    {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\compa.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\compa.jpg"
     },
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\dacnhantam.png",
@@ -149,12 +157,20 @@
       "PackagePath": "staticwebassets\\images\\Home\\legocity.png"
     },
     {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\mausap.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\mausap.jpg"
+    },
+    {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\nhagiakim.png",
       "PackagePath": "staticwebassets\\images\\Home\\nhagiakim.png"
     },
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\nsthenaodebandchang.png",
       "PackagePath": "staticwebassets\\images\\Home\\nsthenaodebandchang.png"
+    },
+    {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\rubik.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\rubik.jpg"
     },
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\sachkynang.png",
@@ -167,6 +183,10 @@
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\thinhanvn.png",
       "PackagePath": "staticwebassets\\images\\Home\\thinhanvn.png"
+    },
+    {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\tokillamockingbird.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\tokillamockingbird.jpg"
     },
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\truyenkieu.png",
@@ -183,6 +203,10 @@
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\vo200trang.png",
       "PackagePath": "staticwebassets\\images\\Home\\vo200trang.png"
+    },
+    {
+      "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\images\\Home\\xetai.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\xetai.jpg"
     },
     {
       "Id": "D:\\Tai-Lieu-hoc\\Project2.1\\HeThongNhaSach\\HeThongNhaSach\\wwwroot\\js\\search.js",

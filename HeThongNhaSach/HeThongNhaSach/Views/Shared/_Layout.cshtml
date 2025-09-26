@@ -6,7 +6,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 
     <style>
         /* Không hiện màu/hiệu ứng khi focus */
@@ -42,54 +43,90 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
             <div class="container">
+
+                <!-- Logo -->
                 <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
-                    <div class="fs-3 me-2"> </div>
+                    <div class="fs-3 me-2"></div>
                     <span class="fw-bold text-primary">NHÀ SÁCH</span>
                 </a>
 
-                <!-- Form tìm kiếm -->
-                <form class="mx-auto w-50 position-relative search-form" onsubmit="return false;">
-                    <div class="input-group">
-                        <input id="searchBox" type="text"
-                               class="form-control rounded-start-pill"
-                               placeholder="Mua Đồ..." autocomplete="off">
-                        <button class="btn btn-danger rounded-end-pill" type="button">
-                            <i class="bi bi-search"></i>
-                        </button>
-                    </div>
-                    <ul id="suggestions" class="list-group position-absolute w-100"
-                        style="top:100%; z-index:1000;"></ul>
-                </form>
-
-                <!-- Menu -->
                 <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                        <li class="nav-item">
+                    <ul class="navbar-nav me-3">
+                        <!-- 📚 Danh mục -->
+                        <li class="nav-item dropdown">
                             <a class="nav-link" asp-controller="DanhMuc" asp-action="DanhMuc">Danh mục</a>
+                            <!-- Mega menu -->
+                            <div class="dropdown-menu p-3 shadow-lg" aria-labelledby="danhMucMenu" style="min-width:700px;">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">📚 Sách Trong Nước</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="/DanhMuc/SachTrongNuoc">Văn học</a></li>
+                                            <li><a href="/DanhMuc/SachTrongNuoc">Kinh tế</a></li>
+                                            <li><a href="/DanhMuc/SachTrongNuoc">Kỹ năng sống</a></li>
+                                            <li><a href="/DanhMuc/SachTrongNuoc">Sách thiếu nhi</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">🌍 Sách Nước Ngoài</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="/DanhMuc/SachNgoaiNuoc">Tiểu thuyết dịch</li>
+                                            <li><a href="/DanhMuc/SachNgoaiNuoc">Kinh tế quốc tế</a></li>
+                                            <li><a href="/DanhMuc/SachNgoaiNuoc">Học thuật</a></li>
+                                            <li><a href="/DanhMuc/SachNgoaiNuoc">Tiếng Anh</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">✏️ Dụng Cụ Học Sinh</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="/DanhMuc/DungCuHocSinh">Đồ dùng học tập</a></li>
+                                            <li><a href="/DanhMuc/DungCuHocSinh">Tập - vở</a></li>
+                                            <li><a href="/DanhMuc/DungCuHocSinh">Phụ kiện</a></li>
+                                            <li><a href="/DanhMuc/DungCuHocSinh">Balo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">🧸 Đồ Chơi</h6>
+                                        <ul class="list-unstyled">
+                                            <li><a href="/DanhMuc/DoChoiTreEm">Đồ chơi giáo dục</a></li>
+                                            <li><a href="/DanhMuc/DoChoiTreEm">Đồ chơi vận động</a></li>
+                                            <li><a href="/DanhMuc/DoChoiTreEm">Đồ chơi sáng tạo</a></li>
+                                            <li><a href="/DanhMuc/DoChoiTreEm"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
+                    </ul>
 
+                    <!-- Form tìm kiếm căn giữa -->
+                    <form class="mx-auto w-50 position-relative search-form" onsubmit="return false;">
+                        <div class="input-group">
+                            <input id="searchBox" type="text"
+                                   class="form-control rounded-start-pill"
+                                   placeholder="Mua Đồ..." autocomplete="off">
+                            <button class="btn btn-danger rounded-end-pill" type="button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                        <ul id="suggestions" class="list-group position-absolute w-100"
+                            style="top:100%; z-index:1000;"></ul>
+                    </form>
+
+                    <!-- Các mục khác -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link position-relative" asp-controller="Home" asp-action="GioHang">
                                 🛒 Giỏ hàng
                                 <span id="cartCount"
-                                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                    0
-                                </span>
+                                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
                             </a>
                         </li>
-
-                        <!-- Thông báo -->
                         <li class="nav-item dropdown position-relative">
-                            <!-- Link đi tới trang Thông báo -->
                             <a class="nav-link position-relative" asp-controller="ThongBao" asp-action="Index">
                                 🔔 Thông báo
-                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
-                                    4
-                                </span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">4</span>
                             </a>
-
-                            <!-- Dropdown khi hover -->
                             <ul class="dropdown-menu dropdown-menu-end p-2 shadow"
                                 style="width:300px; top:100%; left:auto; right:0;">
                                 <li class="dropdown-item text-truncate">🎉 Giảm giá 20% sách thiếu nhi</li>
@@ -102,7 +139,6 @@
                                 </li>
                             </ul>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="TaiKhoan" asp-action="DangNhap">Tài khoản</a>
                         </li>
@@ -110,6 +146,7 @@
                 </div>
             </div>
         </nav>
+
     </header>
 
     <!-- Nội dung riêng -->

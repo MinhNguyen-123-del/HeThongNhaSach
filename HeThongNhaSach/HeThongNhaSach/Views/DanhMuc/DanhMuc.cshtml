@@ -2,81 +2,90 @@
     ViewData["Title"] = "Danh mục - Nhà Sách";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@model IEnumerable<HeThongNhaSach.Models.DanhMuc>
+
 @section Styles {
-    <link rel="stylesheet" href="~/css/danhmuc.css" />
+    <link rel="stylesheet" href="~/css/danhmuc.css?v=123" />
 }
 
 <div class="container my-5">
-    <div class="text-center mb-4">
-        <h1 class="fw-bold text-primary">Danh mục sản phẩm</h1>
-        <p class="text-muted">Khám phá thế giới tuyệt vời của tri thức và giải trí</p>
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-md-3">
+            <div class="list-group shadow-sm">
+                <a asp-controller="DanhMuc" asp-action="SachTrongNuoc"
+                   class="list-group-item list-group-item-action @(ViewBag.Active == "TrongNuoc" ? "active" : "")">
+                    📚 Sách Trong Nước
+                </a>
+                <a asp-controller="DanhMuc" asp-action="SachNgoaiNuoc"
+                   class="list-group-item list-group-item-action @(ViewBag.Active == "NgoaiNuoc" ? "active" : "")">
+                    🌍 Sách Nước Ngoài
+                </a>
+                <a asp-controller="DanhMuc" asp-action="DungCuHocSinh"
+                   class="list-group-item list-group-item-action @(ViewBag.Active == "DungCu" ? "active" : "")">
+                    ✏️ Dụng Cụ Học Sinh
+                </a>
+                <a asp-controller="DanhMuc" asp-action="DoChoiTreEm"
+                   class="list-group-item list-group-item-action @(ViewBag.Active == "DoChoi" ? "active" : "")">
+                    🧸 Đồ Chơi
+                </a>
+            </div>
+        </aside>
+
+        <!-- Content -->
+        <div class="col-md-9">
+            <h3 class="fw-bold text-primary mb-4">@ViewBag.TitleDanhMuc</h3>
+
+            <div class="row g-3">
+                @foreach (var col in (List<(string, List<string>)>)ViewBag.SubCategories)
+                {
+                    <div class="col-md-4">
+                        <div class="subcategory-card">
+                            <h6>@col.Item1</h6>
+                            <ul class="list-unstyled">
+                                @foreach (var item in col.Item2)
+                                {
+                                    <li><a href="#">@item</a></li>
+                                }
+                                <li><a href="#">Xem tất cả →</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+            </div>
+            <hr />
+            <h3 class="fw-bold text-primary mb-4">🔥 Sản phẩm nổi bật</h3>
+            <div class="row g-4">
+                @if (ViewBag.SanPhamNoiBat != null)
+                {
+                    @foreach (var sp in (List<SanPham>)ViewBag.SanPhamNoiBat)
+                    {
+                        <div class="col-md-3">
+                            <div class="card h-100 shadow-sm product-card">
+                                <img src="@Url.Content(sp.HinhAnh)"
+                                     class="card-img-top"
+                                     alt="@sp.TenSp"
+                                     style="width:100%; height:250px; object-fit:cover;">
+                                <div class="card-body d-flex flex-column">
+                                    <h6 class="card-title">@sp.TenSp</h6>
+                                    <small class="text-muted">@sp.TacGia</small>
+                                    <div class="mt-2 fw-bold text-danger">
+                                        @sp.GiaBan.ToString("N0") đ
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-sm mt-auto">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="text-warning">⚠ Không có sản phẩm nổi bật cho danh mục này.</p>
+                }
+            </div>
+
+        </div>
+
+
+        </div>
     </div>
-
-    <!-- Thanh filter -->
-    <div class="d-flex justify-content-end mb-4">
-        <select class="form-select w-auto">
-            <option>Phổ biến nhất</option>
-            <option>Mới nhất</option>
-            <option>Nhiều sản phẩm nhất</option>
-        </select>
-    </div>
-
-    <!-- Grid danh mục -->
-    <div class="row g-4">
-
-        <!-- Card 1 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="category-card position-relative shadow-sm">
-                <img src="~/images/danhmuc/sachtrongnuoc.png" class="img-fluid rounded" alt="Sách trong nước">              
-                <div class="info p-3">
-                    <p>Tác phẩm nổi bật từ các tác giả Việt Nam</p>
-                    <span class="count text-muted">2,345 sản phẩm</span>
-                    <a asp-controller="DanhMuc" asp-action="SachTrongNuoc" class="d-block mt-2 text-primary fw-bold">
-                        Xem thêm →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="category-card position-relative shadow-sm">
-                <img src="~/images/danhmuc/sachnuocngoai.png" class="img-fluid rounded" alt="Sách ngoài nước">                
-                <div class="info p-3">
-                    <p>Foreign books</p>
-                    <span class="count text-muted">1,892 sản phẩm</span>
-                    <a asp-controller="DanhMuc" asp-action="SachNgoaiNuoc" class="d-block mt-2 text-primary fw-bold">
-                        Xem thêm →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="category-card position-relative shadow-sm">
-                <img src="~/images/danhmuc/dungcu.png" class="img-fluid rounded" alt="Dụng cụ học sinh">
-                <div class="info p-3">
-                    <p>Bút, vở, balo và nhiều sản phẩm học tập</p>
-                    <span class="count text-muted">1,456 sản phẩm</span>
-                    <a asp-controller="DanhMuc" asp-action="DungCuHocSinh" class="d-block mt-2 text-primary fw-bold">
-                        Xem thêm →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="col-md-6 col-lg-3">
-            <div class="category-card position-relative shadow-sm">
-                <img src="~/images/danhmuc/dochoi.png" class="img-fluid rounded" alt="Đồ chơi trẻ em">                
-                <div class="info p-3">
-                    <p>Đồ chơi phát triển trí tuệ và giải trí cho bé</p>
-                    <span class="count text-muted">1,102 sản phẩm</span>
-                    <a asp-controller="DanhMuc" asp-action="DoChoiTreEm" class="d-block mt-2 text-primary fw-bold">
-                        Xem thêm →
-                    </a>
-                </div>
-            </div>
-        </div>
+</div>

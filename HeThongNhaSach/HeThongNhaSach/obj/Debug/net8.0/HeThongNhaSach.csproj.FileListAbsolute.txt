@@ -242,6 +242,7 @@ D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThon
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.MvcApplicationPartsAssemblyInfo.cache
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.RazorAssemblyInfo.cache
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.RazorAssemblyInfo.cs
+D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.sourcelink.json
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\scopedcss\bundle\HeThongNhaSach.styles.css
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\scopedcss\projectbundle\HeThongNhaSach.bundle.scp.css
@@ -261,4 +262,3 @@ D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\refint
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.pdb
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.genruntimeconfig.cache
 D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\ref\HeThongNhaSach.dll
-D:\Tai-Lieu-hoc\Project2.1\HeThongNhaSach\HeThongNhaSach\obj\Debug\net8.0\HeThongNhaSach.sourcelink.json
