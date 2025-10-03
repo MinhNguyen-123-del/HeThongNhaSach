@@ -20,6 +20,8 @@ public partial class NhaSachContext : DbContext
     public virtual DbSet<DanhMuc> DanhMucs { get; set; }
 
     public virtual DbSet<DonHang> DonHangs { get; set; }
+    public virtual DbSet<GioHang> GioHangs { get; set; }
+    public virtual DbSet<ChiTietGioHang> ChiTietGioHangs { get; set; }
 
     public virtual DbSet<KhachHang> KhachHangs { get; set; }
 
@@ -32,7 +34,29 @@ public partial class NhaSachContext : DbContext
         => optionsBuilder.UseSqlServer("Server=DESKTOP-SMN1035\\SQLEXPRESS05;Database=NhaSachTrucTuyen;Trusted_Connection=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
+
     {
+        modelBuilder.Entity<GioHang>(entity =>
+        {
+            entity.HasKey(e => e.MaGh).HasName("PK__GioHang__...");
+            entity.HasOne(d => d.MaTkNavigation)
+                .WithMany(p => p.GioHangs)
+                .HasForeignKey(d => d.MaTk)
+                .HasConstraintName("FK__GioHang__MaTK__...");
+        });
+
+        modelBuilder.Entity<ChiTietGioHang>(entity =>
+        {
+            entity.HasKey(e => e.MaCtgh).HasName("PK__ChiTietGH__...");
+            entity.HasOne(d => d.MaGhNavigation)
+                .WithMany(p => p.ChiTietGioHangs)
+                .HasForeignKey(d => d.MaGh);
+
+            entity.HasOne(d => d.MaSpNavigation)
+                .WithMany(p => p.ChiTietGioHangs)
+                .HasForeignKey(d => d.MaSp);
+        });
+
         modelBuilder.Entity<ChiTietDonHang>(entity =>
         {
             entity.HasKey(e => e.MaCtdh).HasName("PK__ChiTietD__1E4E40F0FA9A5C98");

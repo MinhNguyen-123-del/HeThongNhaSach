@@ -116,10 +116,9 @@
                     <!-- Các mục khác -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link position-relative" asp-controller="Home" asp-action="GioHang">
+                            <a class="nav-link position-relative" asp-controller="GioHang" asp-action="Index">
                                 🛒 Giỏ hàng
-                                <span id="cartCount"
-                                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                                
                             </a>
                         </li>
                         <li class="nav-item dropdown position-relative">
@@ -139,16 +138,43 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="TaiKhoan" asp-action="DangNhap">Tài khoản</a>
-                        </li>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                    👤 Tài khoản
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @if (Context.Session.GetString("HoTen") != null)
+                                    {
+                                        <!-- Đã đăng nhập -->
+                                        <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="ThongTin">Thông tin tài khoản</a></li>
+                                        <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="DonHangCuaToi">Đơn hàng của tôi</a></li>
+                                        <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="DangXuat">Đăng xuất</a></li>
+                                    }
+                                    else
+                                    {
+                                        <!-- Chưa đăng nhập -->
+                                        <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="DangNhap">Đăng nhập</a></li>
+                                        <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="DangKy">Đăng ký</a></li>
+                                    }
+                                    
+
+                                </ul>
+                            </li>
+                        </ul>
+
                     </ul>
                 </div>
             </div>
         </nav>
 
     </header>
-
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success text-center mb-0">
+            @TempData["Message"]
+        </div>
+    }
     <!-- Nội dung riêng -->
     <main class="container my-4">
         @RenderBody()
@@ -180,5 +206,15 @@
     <script src="~/js/search.js"></script>
 
     @RenderSection("Scripts", required: false)
+    <script>
+        setTimeout(function () {
+            var alertBox = document.querySelector(".alert");
+            if (alertBox) {
+                alertBox.style.opacity = "0";
+                setTimeout(() => alertBox.style.display = "none", 500);
+            }
+        }, 3000); // 3 giây
+    </script>
+
 </body>
 </html>

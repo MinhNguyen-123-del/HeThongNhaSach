@@ -1,30 +1,45 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using HeThongNhaSach.Models;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore;
+using HeThongNhaSach.ViewModels;
 namespace HeThongNhaSach.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly NhaSachContext _context; // ✅ thêm context
 
-        public HomeController(ILogger<HomeController> logger)
+        // ✅ constructor nhận context từ DI
+        public HomeController(ILogger<HomeController> logger, NhaSachContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var spNoiBat = _context.SanPhams
+                .Where(sp => sp.NoiBat == true)
+                .Take(8)
+                .ToList();
+
+            var flashSale = _context.SanPhams
+                .Where(sp => sp.FlashSale == true)
+                .Take(4)
+                .ToList();
+
+            var vm = new HomeIndexViewModel
+            {
+                SanPhamNoiBat = spNoiBat,
+                FlashSale = flashSale
+            };
+
+            return View(vm);
         }
+
 
         public IActionResult Privacy()
-        {
-            return View();
-        }
-       
-
-        public IActionResult GioHang()
         {
             return View();
         }

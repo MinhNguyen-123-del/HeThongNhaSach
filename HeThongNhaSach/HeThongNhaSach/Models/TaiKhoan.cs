@@ -40,4 +40,7 @@ public partial class TaiKhoan
 
     [InverseProperty("MaTkNavigation")]
     public virtual ICollection<KhachHang> KhachHangs { get; set; } = new List<KhachHang>();
+    [InverseProperty("MaTkNavigation")]
+    public virtual ICollection<GioHang> GioHangs { get; set; } = new List<GioHang>();
+
 }

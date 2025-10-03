@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using HeThongNhaSach.Models;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,7 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<NhaSachContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NhaSachDb")));
 
-// ✅ Thêm Session (nếu bạn dùng đăng nhập/giỏ hàng)
+// ✅ Thêm Session (chỉ cần 1 lần thôi)
 builder.Services.AddSession();
 
 var app = builder.Build();
@@ -28,7 +27,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// ✅ Kích hoạt Session
+// ✅ Kích hoạt Session (chỉ 1 lần thôi)
 app.UseSession();
 
 app.UseAuthorization();

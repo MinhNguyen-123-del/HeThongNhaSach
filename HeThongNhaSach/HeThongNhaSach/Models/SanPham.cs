@@ -41,13 +41,16 @@ public partial class SanPham
 
     [StringLength(500)]
     public string? MoTa { get; set; }
+    public bool? NoiBat { get; set; }      // ✅ thêm
+    public bool? FlashSale { get; set; }   // ✅ thêm
 
     [Column("MaDM")]
     public int? MaDm { get; set; }
 
     [InverseProperty("MaSpNavigation")]
     public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
-
+    [InverseProperty("MaSpNavigation")]
+    public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
     [ForeignKey("MaDm")]
     [InverseProperty("SanPhams")]
     public virtual DanhMuc? MaDmNavigation { get; set; }
